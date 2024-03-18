@@ -1,0 +1,59 @@
+.container{
+    border-radius: 10px;
+    width: 900px;
+    background-color: lightblue;
+    margin: 50px auto;
+    padding: 0 5px;
+    box-shadow: 0 5px 20px rgba(22,15,15);
+    padding-bottom: 60px;
+}
+.header{
+    width: 900px;
+    display: flex;
+}
+.left-section{
+    border: none;
+    width: 150px;
+    background-color: rgb(167, 162, 162);
+    margin-left: 30px;
+}
+.image{
+    width: 130px;
+    object-fit: contain;
+    border: none;
+    margin-top: 125px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 65px;
+    align-items: center;
+}
+.right-section{
+    width: 650px;
+    margin-left: 20px;
+    padding-top: 160px;
+}
+.name{
+    font-family:Delius Unicase;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 0;
+    padding: 0;
+
+}
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(167, 162, 162);
+    margin-top: 10px;
+    padding: 6px 10px;
+}
+.info-details,
+info,
+value{
+    display: flex; 
+    flex-direction: row;
+}
+.value{
+    margin: 0;
+    margin-left: 5px;
+}

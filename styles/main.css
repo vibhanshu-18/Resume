@@ -1,0 +1,85 @@
+main{
+    display: flex;
+}
+.details{
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 150px;
+}
+.content{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 155px;
+    font-family: Gafata;
+}
+.content1{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 80px;
+    padding-top: 30px;
+    font-family: Gafata;
+}
+.content2{
+    font-weight: bold;
+    font-size: 22px;
+    padding-top: 20px;
+    font-family: Gafata;
+}
+.description{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.objective{
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 42px;
+    padding-right: 50px;
+    font-size: 20px;
+    color: rgb(38, 35, 35);
+}
+.education{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.defined1{
+    margin: 0;
+    margin-bottom: 8px;
+    padding-right: 50px;
+    font-size: 20px;
+    color: rgb(38, 35, 35);
+}
+
+.skills{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 0px;
+    justify-content: space-between;
+}
+.t-skills,
+.s-skills{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: -15px;
+}
+.hard-skills{
+    margin-left: 50px;
+}
+.C,
+.html,
+.python,
+.css{
+    display: flex;
+    height: 35px;
+    align-items:center;
+    padding-left: 20px;
+}
+.soft-skills{
+    margin-right:100px;
+}
+
+.hobby,
+.achievement{
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 1.5;
+}
